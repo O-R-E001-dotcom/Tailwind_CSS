@@ -1,8 +1,7 @@
 
-import { useState } from "react";
+import { useState } from 'react';
 
-
-export default function Navbar() {
+function ResponsiveNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   
   return (
@@ -30,7 +29,7 @@ export default function Navbar() {
             <button className="relative text-2xl">
               🛒
               <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                12
+                3
               </span>
             </button>
             
@@ -66,3 +65,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default ResponsiveNavbar;

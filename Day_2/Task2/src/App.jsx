@@ -1,15 +1,13 @@
 
-import Navbar from "./NavBar.jsx";
+import React from 'react'
+import ResponsiveNavbar from './ResponsiveNavbar'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <div className="pt-24 text-center">
-        <h1 className="text-3xl font-bold text-green-700">Welcome to NaijaMart 🇳🇬</h1>
-      </div>
-    </>
-  );
+    <div>
+      <ResponsiveNavbar />
+    </div>
+  )
 }
 
-export default App;
+export default App
