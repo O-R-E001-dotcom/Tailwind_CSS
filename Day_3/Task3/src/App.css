@@ -1,2 +1,8 @@
 
 @import "tailwindcss";
+
+@theme {
+  /* Nigerian flag colors */
+  --color-naija-green: #008751;
+  --color-naija-white: #FFFFFF;
+}

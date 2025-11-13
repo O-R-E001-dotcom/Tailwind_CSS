@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+
+@theme {
+  /* Nigerian flag colors */
+  --color-mine-green: #008751;
+  --color-mine-white: #FFFFFF;
+  /* Custom spacing values */
+  --spacing-128: 32rem;     /* Use as: w-128, p-128 */
+  --spacing-144: 36rem;     /* Use as: h-144, m-144 */
+  
+  /* Custom border radius */
+  --radius-4xl: 2rem;       /* Use as: rounded-4xl */
+  
+  /* Custom font family */
+  --font-family-mine: Inter, system-ui, sans-serif;  /* Use as: font-naija */
+}
