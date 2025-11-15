@@ -8,7 +8,7 @@ const App = () => {
       
     <div className="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
       {/* Header with Nigerian colors */}
-      <div className="h-32 bg-gradient-to-b from-green-500 via-white to-green-600"></div>
+      <div className="h-32 bg-gradient-to-r from-green-500 via-white to-green-600"></div>
       
       {/* Avatar */}
       <div className="relative px-15 -mt-16">
@@ -21,7 +21,7 @@ const App = () => {
       <div className="text-center px-6 py-4">
         <h2 className="text-2xl font-bold text-gray-800">Abolore Sanni</h2>
         <p className="text-gray-600 mt-1">AI Developer</p>
-        <p className="text-sm text-gray-500 mt-2">Abuja, Nigeria 🇳🇬</p>
+        <p className="text-sm text-gray-500 mt-2">Abeokuta, Ogun State, Nigeria 🇳🇬</p>
         
         {/* Bio */}
         <p className="text-gray-700 mt-4 text-sm leading-relaxed">
